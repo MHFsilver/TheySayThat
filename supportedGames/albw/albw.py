@@ -13,126 +13,101 @@ class ALBW(Game):
         return "The Legend of Zelda: A Link Between Worlds"
 
     def getHintList(self) -> list[Hint]:
-        return [  Hint('Bongos', '/supportedGames/dk64/images/bongos.png', 'Bongos Hint'),
-            Hint('Guitar', '/supportedGames/dk64/images/guitar.png', 'Guitar Hint'),
-            Hint('Saxophone', '/supportedGames/dk64/images/saxophone.png', 'Saxophone Hint'),
-            Hint('Trombone', '/supportedGames/dk64/images/trombone.png', 'Trombone Hint'),
-            Hint('Triangle', '/supportedGames/dk64/images/triangle.png', 'Triangle Hint'),
-            Hint('Aztec DK', '/supportedGames/dk64/images/dk.png', 'Angry Aztec - DK Hint'),
-            Hint('Aztec Diddy', '/supportedGames/dk64/images/diddy.png', 'Angry Aztec - Diddy Hint'),
-            Hint('Aztec Tiny', '/supportedGames/dk64/images/tiny.png', 'Angry Aztec - Tiny Hint'),
-            Hint('Aztec Lanky', '/supportedGames/dk64/images/lanky.png', 'Angry Aztec - Lanky Hint'),
-            Hint('Aztec Chunky', '/supportedGames/dk64/images/chunky.png', 'Angry Aztec - Chunky Hint'),
-            Hint('Castle DK', '/supportedGames/dk64/images/dk.png', 'Creepy Castle - DK Hint'),
-            Hint('Castle Diddy', '/supportedGames/dk64/images/diddy.png', 'Creepy Castle - Diddy Hint'),
-            Hint('Castle Tiny', '/supportedGames/dk64/images/tiny.png', 'Creepy Castle - Tiny Hint'),
-            Hint('Castle Lanky', '/supportedGames/dk64/images/lanky.png', 'Creepy Castle - Lanky Hint'),
-            Hint('Castle Chunky', '/supportedGames/dk64/images/chunky.png', 'Creepy Castle - Chunky Hint'),
-            Hint('Caves DK', '/supportedGames/dk64/images/dk.png', 'Crystal Caves - DK Hint'),
-            Hint('Caves Diddy', '/supportedGames/dk64/images/diddy.png', 'Crystal Caves - Diddy Hint'),
-            Hint('Caves Tiny', '/supportedGames/dk64/images/tiny.png', 'Crystal Caves - Tiny Hint'),
-            Hint('Caves Lanky', '/supportedGames/dk64/images/lanky.png', 'Crystal Caves - Lanky Hint'),
-            Hint('Caves Chunky', '/supportedGames/dk64/images/chunky.png', 'Crystal Caves - Chunky Hint'),
-            Hint('Factory DK', '/supportedGames/dk64/images/dk.png', 'Frantic Factory - DK Hint'),
-            Hint('Factory Diddy', '/supportedGames/dk64/images/diddy.png', 'Frantic Factory - Diddy Hint'),
-            Hint('Factory Tiny', '/supportedGames/dk64/images/tiny.png', 'Frantic Factory - Tiny Hint'),
-            Hint('Factory Lanky', '/supportedGames/dk64/images/lanky.png', 'Frantic Factory - Lanky Hint'),
-            Hint('Factory Chunky', '/supportedGames/dk64/images/chunky.png', 'Frantic Factory - Chunky Hint'),
-            Hint('Fungi DK', '/supportedGames/dk64/images/dk.png', 'Fungi Forest - DK Hint'),
-            Hint('Fungi Diddy', '/supportedGames/dk64/images/diddy.png', 'Fungi Forest - Diddy Hint'),
-            Hint('Fungi Tiny', '/supportedGames/dk64/images/tiny.png', 'Fungi Forest - Tiny Hint'),
-            Hint('Fungi Lanky', '/supportedGames/dk64/images/lanky.png', 'Fungi Forest - Lanky Hint'),
-            Hint('Fungi Chunky', '/supportedGames/dk64/images/chunky.png', 'Fungi Forest - Chunky Hint'),
-            Hint('Galleon DK', '/supportedGames/dk64/images/dk.png', 'Gloomy Galleon - DK Hint'),
-            Hint('Galleon Diddy', '/supportedGames/dk64/images/diddy.png', 'Gloomy Galleon - Diddy Hint'),
-            Hint('Galleon Tiny', '/supportedGames/dk64/images/tiny.png', 'Gloomy Galleon - Tiny Hint'),
-            Hint('Galleon Lanky', '/supportedGames/dk64/images/lanky.png', 'Gloomy Galleon - Lanky Hint'),
-            Hint('Galleon Chunky', '/supportedGames/dk64/images/chunky.png', 'Gloomy Galleon - Chunky Hint'),
-            Hint('Japes DK', '/supportedGames/dk64/images/dk.png', 'Jungle Japes - DK Hint'),
-            Hint('Japes Diddy', '/supportedGames/dk64/images/diddy.png', 'Jungle Japes - Diddy Hint'),
-            Hint('Japes Tiny', '/supportedGames/dk64/images/tiny.png', 'Jungle Japes - Tiny Hint'),
-            Hint('Japes Lanky', '/supportedGames/dk64/images/lanky.png', 'Jungle Japes - Lanky Hint'),
-            Hint('Japes Chunky', '/supportedGames/dk64/images/chunky.png', 'Jungle Japes - Chunky Hint'),
-            Hint('Gorilla Gone', '/supportedGames/dk64/images/gorillagone.png', 'Gorilla Gone Hint'),
-            Hint('Monkeyport', '/supportedGames/dk64/images/monkeyport.png', 'Monkeyport Hint'),
-            Hint('Progressive Slam', '/supportedGames/dk64/images/progressiveslam.png', 'Progressive Slam Hint')
+        return [  Hint('LR Fortune', '/supportedGames/albw/images/ghost.png', 'Lorule Fortune-Teller Ghost'),
+            Hint('HY Graveyard', '/supportedGames/albw/images/ghost.png', 'Hyrule Graveyard Ghost'),
+            Hint('S Bridge', '/supportedGames/albw/images/ghost.png', 'Southern Bridge Ghost'),
+            Hint('DR N', '/supportedGames/albw/images/ghost.png', 'Dark Ruins North Ghost'),
+            Hint('Des E', '/supportedGames/albw/images/ghost.png', 'Desert East Ghost'),
+            Hint('ZD', '/supportedGames/albw/images/ghost.png', 'Zoras Domain Ghost'),
+            Hint('TR Out', '/supportedGames/albw/images/ghost.png', 'Turtle Rock Outside Ghost'),
+            Hint('SW Cucco', '/supportedGames/albw/images/ghost.png', 'Skull Woods Cuccos Ghost'),
+            Hint('StyleWoman', '/supportedGames/albw/images/ghost.png', 'Stylish Woman Ghost'),
+            Hint('KakWell', '/supportedGames/albw/images/ghost.png', 'Kakariko Well Ghost'),
+            Hint('HY Rupee', '/supportedGames/albw/images/ghost.png', 'Hyrule Rupee Rush Ghost'),
+            Hint('DP Out', '/supportedGames/albw/images/ghost.png', 'Dark Palace Outside Ghost'),
+            Hint('VetThief', '/supportedGames/albw/images/ghost.png', 'Veteran Thief Ghost'),
+            Hint('LR Rupee', '/supportedGames/albw/images/ghost.png', 'Lorule Rupee Rush Ghost'),
+            Hint('Vacant', '/supportedGames/albw/images/ghost.png', 'Vacant House Ghost'),
+            Hint('LR Graveyard', '/supportedGames/albw/images/ghost.png', 'Lorule Graveyard Ghost'),
+            Hint('GY Ledge', '/supportedGames/albw/images/ghost.png', 'Graveyard Ledge Ghost'),
+            Hint('SpecRock', '/supportedGames/albw/images/ghost.png', 'Spectacle Rock Ghost'),
+            Hint('ShadyGuy', '/supportedGames/albw/images/ghost.png', 'Shady Guy Ghost'),
+            Hint('WaterfallCave', '/supportedGames/albw/images/ghost.png', 'Waterfall Cave Ghost'),
+            Hint('LostWoods', '/supportedGames/albw/images/ghost.png', 'Lost Woods Ghost'),
+            Hint('GRF', '/supportedGames/albw/images/ghost.png', 'Great Rupee Fairy Ghost'),
+            Hint('TurtleBully', '/supportedGames/albw/images/ghost.png', 'Turtle Bullied Ghost'),
+            Hint('HoGIsle', '/supportedGames/albw/images/ghost.png', 'House of Gales Island Ghost'),
+            Hint('SmithCave', '/supportedGames/albw/images/ghost.png', 'Blacksmith Cave Ghost'),
+            Hint('IceRuin Out', '/supportedGames/albw/images/ghost.png', 'Ice Ruins Outside Ghost'),
+            Hint('MoldormCave', '/supportedGames/albw/images/ghost.png', 'Moldorm Cave Ghost"'),
+            Hint('HY Hotfoot', '/supportedGames/albw/images/ghost.png', 'Hyrule Hotfoot Ghost'),
+            Hint('SP OutsideL', '/supportedGames/albw/images/ghost.png', 'Swamp Palace Outside Left Ghost'),
+            Hint('SP OutsideR', '/supportedGames/albw/images/ghost.png', 'Swamp Palace Outside Right Ghost'),
+            Hint('OctoDerby', '/supportedGames/albw/images/ghost.png', 'Octoball Derby Ghost'),
+            Hint('HY CastleRock', '/supportedGames/albw/images/ghost.png', 'Hyrule Castle Rocks Ghost'),
+            Hint('S Ruins', '/supportedGames/albw/images/ghost.png', 'Southern Ruins Ghost'),
+            Hint('HY Fortune', '/supportedGames/albw/images/ghost.png', 'Hyrule Fortune-Teller Ghost'),
+            Hint('SW S', '/supportedGames/albw/images/ghost.png', 'Skull Woods South Ghost'),
+            Hint('LW Maze1', '/supportedGames/albw/images/ghost.png', 'Lost Woods Maze Ghost 1'),
+            Hint('ER Peg', '/supportedGames/albw/images/ghost.png', 'Eastern Ruins Pegs Ghost'),
+            Hint('FloatIsle', '/supportedGames/albw/images/ghost.png', 'Floating Island Ghost'),
+            Hint('ER Cave', '/supportedGames/albw/images/ghost.png', 'Eastern Ruins Cave Ghost'),
+            Hint('Des SW', '/supportedGames/albw/images/ghost.png', 'Desert Southwest Ghost'),
+            Hint('Witch', '/supportedGames/albw/images/ghost.png', 'Witchs House Ghost'),
+            Hint('MM Bridge', '/supportedGames/albw/images/ghost.png', 'Misery Mire Bridge Ghost'),
+            Hint('CuccoDodge', '/supportedGames/albw/images/ghost.png', 'Dodge the Cuccos Ghost'),
+            Hint('FireCave', '/supportedGames/albw/images/ghost.png', 'Fire Cave Ghost'),
+            Hint('MM Ledge', '/supportedGames/albw/images/ghost.png', 'Misery Mire Ledge Ghost'),
+            Hint('TreacherousTower', '/supportedGames/albw/images/ghost.png', 'Treacherous Tower Ghost'),
+            Hint('LW Maze3', '/supportedGames/albw/images/ghost.png', 'Lost Woods Maze Ghost 3'),
+            Hint('BehindSmith', '/supportedGames/albw/images/ghost.png', 'Behind Blacksmith Ghost'),
+            Hint('Sanctuary', '/supportedGames/albw/images/ghost.png', 'Santuary Ghost'),
+            Hint('DarkMaze', '/supportedGames/albw/images/ghost.png', 'Dark Maze Ghost'),
+            Hint('StreetPass', '/supportedGames/albw/images/ghost.png', 'StreetPass Tree Ghost'),
+            Hint('ToH Out', '/supportedGames/albw/images/ghost.png', 'Outside Tower of Hera Ghost'),
+            Hint('ER Entrance', '/supportedGames/albw/images/ghost.png', 'Eastern Ruins Entrance Ghost'),
+            Hint('FortuneChoice', '/supportedGames/albw/images/ghost.png', 'Fortunes Choice Ghost'),
+            Hint('TurtleWall', '/supportedGames/albw/images/ghost.png', 'Turtle Wall Ghost'),
+            Hint('Des Center', '/supportedGames/albw/images/ghost.png', 'Desert Center Ghost'),
+            Hint('LW Maze2', '/supportedGames/albw/images/ghost.png', 'Lost Woods Maze Ghost 3'),
+            Hint('BottleLetter', '/supportedGames/albw/images/ghost.png', 'Letter in a Bottle Ghost'),
+            Hint('LightBow', '/supportedGames/albw/images/ghost.png', 'Bow of Light Hint')
         ]
 
+   
     def readFromSpoilerLog(self, f) -> dict:
-        with open(f, encoding='utf-8-sig') as myFile:
+        with open(f) as myFile:
             data = load(myFile)
-        allHints = dict()
-        directItemHints = dict(data['Direct Item Hints'].items())
-        wrinklyItemHints = dict(data['Wrinkly Hints'].items())
-        for item in directItemHints.items():
-            value = item[1].replace("YOU WOULD BE BETTER OFF LOOKING FOR SHOPS IN", "Look for shops in") \
-                        .replace("YOU WOULD BE BETTER OFF LOOKING FOR", "Look for") \
-                        .replace("YOU WOULD BE BETTER OFF LOOKING IN", "Look in") \
-                        .replace("LADIES AND GENTLEMEN! IT APPEARS THAT ONE FIGHTER HAS COME UNEQUIPPED TO PROPERLY HANDLE THIS REPTILLIAN BEAST. PERHAPS THEY SHOULD HAVE LOOKED", "Look") \
-                        .replace("FOR THE ELUSIVE SLAM.", "for the elusive Slam.") \
-                        .replace("A FAIRY", "a fairy") \
-                        .replace("A BATTLE CROWN", "a battle crown") \
-                        .replace("A DIRT PATCH", "a dirt patch") \
-                        .replace("A KASPLAT", "a Kasplat") \
-                        .replace("JUNGLE JAPES", "Jungle Japes") \
-                        .replace("ANGRY AZTEC", "Angry Aztec") \
-                        .replace("FRANTIC FACTORY", "Frantic Factory") \
-                        .replace("GLOOMY GALLEON", "Gloomy Galleon") \
-                        .replace("FUNGI FOREST", "Fungi Forest") \
-                        .replace("CRYSTAL CAVES", "Crystal Caves") \
-                        .replace("CREEPY CASTLE", "Creepy Castle") \
-                        .replace("HIDEOUT HELM", "Hideout Helm") \
-                        .replace("DK ISLES", "DK Isles") \
-                        .replace("CRANKY'S LAB", "Cranky's Lab") \
-                        .replace("DONKEY", "Donkey") \
-                        .replace("DIDDY", "Diddy") \
-                        .replace("TINY", "Tiny") \
-                        .replace("LANKY", "Lanky") \
-                        .replace("CHUNKY", "Chunky") \
-                        .replace("FOR A", "for a") \
-                        .replace("IN", "in") \
-                        .replace("WITH", "with") \
-                        .replace("FOR THIS.", "for this: " + item[0] + ".") \
-                        .replace("OR", "or")
-            value = value.replace("this: Monkeyport", "Monkeyport") \
-                .replace("this: Guitar", "the Guitar") \
-                .replace("this: Trombone", "the Trombone") \
-                .replace("this: Triangle", "the Triangle") \
-                .replace("this: Gorilla Gone", "Gorilla Gone") \
-                .replace("this: Bongos", "the Bongos") \
-                .replace("this: Saxophone", "the Saxophone")
-            allHints[item[0]] = value
-        for item in wrinklyItemHints.items():
-            if item[0] == 'First Time Talk':
-                continue
-            allHints[item[0]] = item[1]
-        result = {k: v for k, v in allHints.items()}
+        gossipStoneJson = dict(data['gossip_stones'].items())
+        result = {k: v['text'].replace('#', '').replace('They say that ', '') for k, v in gossipStoneJson.items()}
+        result = {k: v[0].upper() + v[1:] for k, v in result.items()}
         return result
-
-    def getMaxButtonsPerRow(self) -> int:
-        return 5
-
-    def getButtonWidth(self) -> int:
-        return 64
-
-    def getButtonHeight(self) -> int:
-        return 64
 
     def getButtonLayout(self) -> list[ButtonLayout]:
         return [
-            ButtonLayout('Instruments', 5),
-            ButtonLayout('Aztec', 5),
-            ButtonLayout('Castle', 5),
-            ButtonLayout('Caves', 5),
-            ButtonLayout('Factory', 5),
-            ButtonLayout('Fungi', 5),
-            ButtonLayout('Galleon', 5),
-            ButtonLayout('Japes', 5),
-            ButtonLayout('Other', 3)
+            ButtonLayout('All', 40)
         ]
 
+    def getWidthGapBetweenButtons(self) -> int:
+        return 8
+
+    def getHeightGapBetweenButtons(self) -> int:
+        return 8
+
+    def getMaxButtonsPerRow(self) -> int:
+        return 10
+
+    def getButtonWidth(self) -> int:
+        return 75
+
+    def getButtonHeight(self) -> int:
+        return 75
+
     def isRowBasedLayout(self) -> bool:
+        return True
+
+    def isUsingSectionHeaders(self) -> bool:
         return False
 
-    def getWidthGapBetweenButtons(self) -> int:
-        return 10
+    def isUsingTooltips(self) -> bool:
+        return False
