@@ -9,6 +9,7 @@ They say that given a spoiler log from one of several popular randomizers, this 
 [The Legend of Zelda: Majora's Mask  (v1.15.2.1)](https://github.com/ZoeyZolotova/mm-rando/releases/tag/v1.15.2.1)  
 [Donkey Kong 64 (v2.0)](https://dk64randomizer.com/)    
 [Metroid Prime](https://randovania.github.io/)  
+[The Legend of Zelda: A Link Between Worlds](https://github.com/rickfay/z17-randomizer) - This is a WIP
 
 TheySayThat is designed to be a universal tool for hint display. Adding a new randomizer into the program requires only a simple class definition and, optionally, images for the buttons.
 The only major requirement is that supported games must have a spoiler log that can be consistently parsed to obtain the hint information.
