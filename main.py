@@ -14,6 +14,7 @@ from supportedGames.dk64.donkeykong64 import DonkeyKong64
 from supportedGames.majorasmask.majorasmask import MajorasMask
 from supportedGames.metroidprime.metroidprime import MetroidPrime
 from supportedGames.ocarinaoftime.ocarinaoftime import OcarinaOfTime
+from supportedGames.albw.albw import ALBW
 
 class MainWindow(QWidget):
 
@@ -24,7 +25,8 @@ class MainWindow(QWidget):
             DonkeyKong64(),
             OcarinaOfTime(),
             MajorasMask(),
-            MetroidPrime()
+            MetroidPrime(),
+            ALBW()
         ]
 
         self.game: Game = OcarinaOfTime()
