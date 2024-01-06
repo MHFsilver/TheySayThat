@@ -1,6 +1,11 @@
 {
-  "game": "The Legend of Zelda: A Link Between Worlds",
+  "game": "Donkey Kong 64",
+  "spoilerLog": "C:/Users/Silver/Downloads/332440-spoilerlog.json",
   "outputFile": "C:/Users/Silver/Documents/GitHub/TheySayThat/output.txt",
   "hintHandler": "Filter duplicate hints",
-  "hintWritingMode": "Spaces"
+  "hintWritingMode": "Spaces",
+  "clickedButtons": [
+    0,
+    39
+  ]
 }  

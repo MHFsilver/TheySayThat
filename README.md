@@ -24,4 +24,8 @@ If you want your favorite randomizer to support TheySayThat, please let the deve
 
 ![TheySayThat3](https://github.com/Go1den/TheySayThat/blob/main/example4.png?raw=true)
 
-Note: This has only been tested on Windows 10. Try it elsewhere at your own risk.
+**Supported Operating Systems**
+Systems this tool has been tested on, and runs on
+
+•Windows 10
+•MacOS Ventura
