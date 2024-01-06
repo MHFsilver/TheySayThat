@@ -27,5 +27,5 @@ If you want your favorite randomizer to support TheySayThat, please let the deve
 **Supported Operating Systems**
 Systems this tool has been tested on, and runs on
 
-•Windows 10
+•Windows 10  
 •MacOS Ventura
